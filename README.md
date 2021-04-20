@@ -57,7 +57,7 @@ Elaborar la función **search_odds** que tome como parametro un vector de objeto
 
 **Use Case:**
 ```cpp
-	auto r1 = search_odds({ 1, 1, 2, -2,
+    auto r1 = search_odds({ 1, 1, 2, -2,
                            5, 2, 4, 4, -1, -2, 5 });
     cout << r1.front() << endl;     // -1
 
@@ -76,7 +76,7 @@ En la imagen se puede ver que en la primera iteración (*n=1*) solo se obtiene 1
   
 **Use Case:**  
 ```cpp
-	number_t x;
+    number_t x;
     cin >> x;
     cout << calculate_pentagon(x) << endl;
 ```
