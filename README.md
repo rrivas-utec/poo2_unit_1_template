@@ -1,9 +1,8 @@
-#Task  
-#1: Clases y Operadores  
+# Task #1: Clases y Operadores  
 **course:** Programación Orientada a Objetos 2  
 **unit:** Unidad 1  
 **cmake project:** poo2_unit_1
-##Instructions
+## Instructions
 Subir a gradescope los siguientes archivos:
 
 - **number.h y number.cpp**, contienen la declaración (.h) y definición (.cpp) de la clase **number_t**
@@ -11,7 +10,7 @@ Subir a gradescope los siguientes archivos:
 - **calculate_pentagon.h y calculate_pentagon.cpp**, contienen la declaración (.h) y definición (.cpp) de la función **calculate_pentagon**
 - **quick_sort.h y quick_sort.cpp**, contienen , contienen la declaración (.h) y definición (.cpp) de la clase **quick_sort** y de funciones adicionales de soporte.
 
-##Question #1 - number type (10 points)
+## Question #1 - number type (10 points)
 
 Desarrollar la clase **number_t** que encapsule valores enteros (tipo T) que sin usar templates y desarrollar los siguientes métodos y operadores:
 - constructor por default `number_t()`
@@ -52,7 +51,7 @@ Desarrollar la clase **number_t** que encapsule valores enteros (tipo T) que sin
     delete n7;
 ```
 
-##Question #2 - search odds (2 points)
+## Question #2 - search odds (2 points)
 
 Completar la función **search_odds** que tome como parametro un vector de objetos del tipo **number_t** y retornar en un vector todos los números (**number_t**) que aparezcan en el vector una cantidad impar de veces.
 
@@ -67,7 +66,7 @@ Completar la función **search_odds** que tome como parametro un vector de objet
     cout << r2.front() << endl;     // 5
 ```
 
-##Question #3 - calculate pentagon (2 points)
+## Question #3 - calculate pentagon (2 points)
 
 Completar la función **calculate_pentagon** que tome como parametro un numero positivo (**n**) y que calcule cuantos puntos existen en una figura pentagonal alrededor de un punto central en **n** iteraciones.  
 En la imagen se puede ver que en la primera iteración (*n=1*) solo se obtiene 1 punto, en la segunda (*n=2*) se obtiene 6 y en la tercera (*n=3*) se obtiene 31.
@@ -82,7 +81,7 @@ En la imagen se puede ver que en la primera iteración (*n=1*) solo se obtiene 1
     cout << calculate_pentagon(x) << endl;
 ```
 
-##Question #4 - quicksort (6 points)
+## Question #4 - quicksort (6 points)
 
 Elaborar las funciones **partition** y **quick_sort** que implementen el algoritmo de ordenamiento **quick** en forma recursiva e implementar la clase **quicksort_t** basado en la función **quick_sort**, esta clase debe sobrecargar el operador << para recibir el nombre del archivo, abrirlo y ordenarlo usando la función **quick_sort** (en el ejemplo el archivo se llama **in.txt**), ordenarlo y sobrecargar el operador **>>** que creara un archivo con el nombre de archivo descrito (en el ejemplo **out.txt**) y grabará el contenido del archivo **in.txt** ordenado.
 
